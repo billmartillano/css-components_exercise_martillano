@@ -53,9 +53,8 @@ p {
 }
 
 .card-horizontal {
-  
-  
   max-width: 32rem;
+  margin-right: auto;
 }
 
 .box {
@@ -84,9 +83,22 @@ button {
   cursor: pointer;
   display: block;
   margin:auto;
+  padding: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 15px;
 
 }
-
+.button--wind{
+  background:linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.button--ice{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+.button--flame{
+   background:linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
 .wrapper {
   padding: 1rem 0;
   display: flex;
