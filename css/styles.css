@@ -5,13 +5,27 @@ html {
 body {
   font-family: ' Inter ', sans-serif;
   line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
 }
 
-h1,
-h2,
+h1{
+  font-size: 30px;
+  color:#c30052;
+}
+h2{
+  Font-size: 25px ;
+  color: #333;
+  text-align: center;
+  margin: auto;
+}
+h3{
+  Font-size: 1.5rem;
+    color: #fff;
+}
 p {
-  margin: 0;
-  padding: 0;
+  Font-size: 1.3rem;
+  color: lightgray;
 }
 
 .container {
