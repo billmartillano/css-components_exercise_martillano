@@ -26,6 +26,16 @@ p {
   min-width: 25rem;
 }
 
+.card--wind{
+  background:linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.card--ice{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+.card--flame{
+   background:linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
